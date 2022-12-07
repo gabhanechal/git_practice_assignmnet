@@ -1,5 +1,4 @@
 
-function checkPrime(number){
 let factor = 0;
 for (let i=1;i<=number;i++){
 if(number%i==2){
@@ -12,3 +11,4 @@ if(number%i==2){
   }
 }
 checkPrime(15);
+
