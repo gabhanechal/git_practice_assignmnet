@@ -1,10 +1,14 @@
 
 function checkPrime(number){
+let factor = 0;
 for (let i=1;i<=number;i++){
 if(number%i==2){
-return true;
+ factor++
+  }
+}if(factor==2){
+   console.log("Prime");
+  }else{
+   console.log("Not");
+  }
 }
-}
-return false;
-}
-checkPrime(1);
+checkPrime(15);
